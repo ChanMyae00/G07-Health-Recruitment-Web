@@ -78,6 +78,19 @@ a:focus {
 }
 
 /* Header / navigation */
+
+
+.brand {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.nav-menu a {
+  text-decoration: none;
+}
+
+
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #d7eadf;
@@ -104,8 +117,6 @@ a:focus {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0c7a52, #5fcf93);
-  color: #ffffff;
   display: grid;
   place-items: center;
   font-weight: bold;
@@ -209,7 +220,7 @@ a:focus {
 .slide-two {
   background-image:
     linear-gradient(rgba(6, 52, 35, 0.35), rgba(6, 52, 35, 0.35)),
-    url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1400&q=80');
+    url('https://dam.northwell.edu/m/7c26de5052c32b5d/Drupal-web_KIWH_AdobeStock_503731162.jpg');
 }
 
 .slide-three {
@@ -427,32 +438,32 @@ fieldset label {
 .site-footer {
   background: #16382c;
   color: #e9fff4;
-  padding: 2rem 0;
-  margin-top: 2rem;
+  padding: 30px 0;
+
+  width: 100%;
+}
+
+.footer-grid {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .site-footer a {
   color: #aaf0c8;
+  text-decoration: none;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 .site-footer h2 {
-  font-size: 1rem;
-}
-
-/* Focus states */
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  outline: 3px solid #8fe3b3;
-  outline-offset: 2px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 /* Responsive */
