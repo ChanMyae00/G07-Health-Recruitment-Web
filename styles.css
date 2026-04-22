@@ -78,19 +78,6 @@ a:focus {
 }
 
 /* Header / navigation */
-
-
-.brand {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-.nav-menu a {
-  text-decoration: none;
-}
-
-
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #d7eadf;
