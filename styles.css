@@ -213,19 +213,19 @@ a:focus {
 .slide-one {
   background-image:
     linear-gradient(rgba(6, 52, 35, 0.35), rgba(6, 52, 35, 0.35)),
-    url('https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1400&q=80');
+    url('https://www.stevenson.edu/wp-content/uploads/iStock-471449282_996x554.jpg') 
 }
 
 .slide-two {
   background-image:
     linear-gradient(rgba(6, 52, 35, 0.35), rgba(6, 52, 35, 0.35)),
-    url('https://dam.northwell.edu/m/7c26de5052c32b5d/Drupal-web_KIWH_AdobeStock_503731162.jpg');
+    url('https://dam.northwell.edu/m/7c26de5052c32b5d/Drupal-web_KIWH_AdobeStock_503731162.jpg') 
 }
 
 .slide-three {
   background-image:
     linear-gradient(rgba(6, 52, 35, 0.35), rgba(6, 52, 35, 0.35)),
-    url('https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1400&q=80');
+    url('https://www.shutterstock.com/shutterstock/videos/3594243857/thumb/1.jpg?ip=x480')
 }
 
 .hero-overlay {
